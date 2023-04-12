@@ -14,10 +14,9 @@ const Home: NextPage = () => {
       <Head>
         <title>Skalaboulder</title>
         <meta name="description" content="Боулдеринг зал в Алматы" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="px-3 text-white">
-        <section className="mb-5 h-[385px] rounded-md bg-[url('/images/main-banner.jpg')] bg-cover bg-right">
+        <section className="mb-5 h-[385px] rounded-md bg-[url('/main-banner.jpg')] bg-cover bg-right">
           <div className="flex h-full w-full flex-col rounded-md bg-secondary/50 p-4 md:p-8">
             <div>
               <h1 className="mb-4 text-xl md:text-5xl">
@@ -74,7 +73,7 @@ const Home: NextPage = () => {
             description="Наши тренировки направлены на гармоничное развитие детей и подростков. Помимо лазания на скалодроме, мы преподаем общую физическую подготовку, а также готовим ребят к соревнованиям. У нас большое и дружное сообщество. Мы прививаем детям любовь к спорту и природе, выезжаем на скалы, проводим фестивали."
           />
         </div>
-        <section className="mb-5 h-[250px] rounded-md bg-[url('/images/trainers-banner.jpeg')] bg-cover bg-center md:h-[300px] lg:h-[400px] xl:h-[500px]">
+        <section className="mb-5 h-[250px] rounded-md bg-[url('/trainers-banner.jpeg')] bg-cover bg-center md:h-[300px] lg:h-[400px] xl:h-[500px]">
           <div className="flex h-full w-full items-end rounded-md bg-primary/40 p-4 md:items-start">
             <h2 className="text-base md:text-3xl">
               Сердце и душа зала - это наши профессиональные и приветливые

@@ -10,6 +10,7 @@ import {
   MapPinIcon,
   PhoneArrowUpRightIcon,
 } from "@heroicons/react/24/solid";
+import Head from "next/head";
 
 const sourceSansPro = Source_Sans_Pro({
   subsets: ["latin", "cyrillic"],
@@ -27,7 +28,27 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           font-family: ${sourceSansPro.style.fontFamily};
         }
       `}</style>
-      <div className="grid-rows-main-layout grid min-h-screen text-sm md:container md:m-auto">
+      <Head>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
+      <div className="grid min-h-screen grid-rows-main-layout text-sm md:container md:m-auto">
         <header className="flex h-16 items-center gap-3 bg-white px-3">
           <Link href="/" className="flex items-center gap-2">
             <LogoIcon className="hidden h-10 md:block" />
@@ -44,7 +65,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
           </div>
         </header>
         <Component {...pageProps} />
-        <footer className="bg-secondary mx-3 rounded-t-md p-2 text-center text-sm text-white">
+        <footer className="mx-3 rounded-t-md bg-secondary p-2 text-center text-sm text-white">
           Skalaboulder © {new Date().getFullYear()}
         </footer>
       </div>

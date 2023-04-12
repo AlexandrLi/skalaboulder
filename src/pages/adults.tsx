@@ -9,14 +9,13 @@ const Adults = () => {
       <Head>
         <title>Секция для взрослых</title>
         <meta name="description" content="Секция для взрослых" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="text-primary px-3">
+      <main className="px-3 text-primary">
         <section className="mb-5">
           <div className="relative h-[175px] w-full">
             <Image
               className="rounded-xl object-cover object-center"
-              src="/images/kids-banner.jpg"
+              src="/kids-banner.jpg"
               alt="баннер"
               fill
               priority
@@ -25,7 +24,7 @@ const Adults = () => {
         </section>
         <div className="mb-4 grid gap-6 md:grid-cols-1">
           <Section className="relative mt-16">
-            <AdultsIcon className="fill-primary absolute -top-20 right-0 w-32 md:-top-14 md:w-20" />
+            <AdultsIcon className="absolute -top-20 right-0 w-32 fill-primary md:-top-14 md:w-20" />
             <h3 className="text-white">
               <div className="font-semibold">
                 Самостоятельные, групповые, персональные тренировки для взрослых

@@ -9,14 +9,13 @@ const Kids = () => {
       <Head>
         <title>Детская секция</title>
         <meta name="description" content="Детская секция Boulder Monkey" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="text-primary px-3">
+      <main className="px-3 text-primary">
         <section className="mb-5">
           <div className="relative h-[175px] w-full">
             <Image
               className="rounded-xl object-cover object-center"
-              src="/images/kids-banner.jpg"
+              src="/kids-banner.jpg"
               alt="баннер"
               fill
               priority
@@ -47,7 +46,7 @@ const Kids = () => {
               Какую пользу получат ваши дети?
             </h2>
             <Section className="relative">
-              <KidsIcon className="fill-primary absolute -top-20 right-0 w-32 md:-top-14 md:w-20" />
+              <KidsIcon className="absolute -top-20 right-0 w-32 fill-primary md:-top-14 md:w-20" />
               <ul className="ml-4 list-disc space-y-1 text-white lg:columns-2">
                 <li>Укрепление здоровья</li>
                 <li>Работа всех групп мышц</li>
