@@ -15,7 +15,7 @@ const Kids = () => {
           <div className="relative h-[175px] w-full">
             <Image
               className="rounded-xl object-cover object-center"
-              src="/kids-banner.jpg"
+              src="/kids-banner.JPG"
               alt="баннер"
               fill
               priority

@@ -12,6 +12,10 @@ export default {
         "main-layout": "auto 1fr auto",
         logo: "1fr auto",
       },
+      backgroundImage: {
+        "main-banner": "url(/main-banner.JPG)",
+        "trainers-banner": "url(/trainers-banner.jpeg)",
+      },
     },
   },
   plugins: [],
